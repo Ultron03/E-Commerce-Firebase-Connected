@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".UploadProductActivity">
+
+    <ImageView
+        android:id="@+id/productimg"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_gravity="center_horizontal"
+        />
+    <EditText
+        android:id="@+id/edt_product_name"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Product Name"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"/>
+    <EditText
+        android:id="@+id/edt_productPrice"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Product Price"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"/>
+    <EditText
+        android:id="@+id/edt_product_des"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Product Description"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"/>
+    <Button
+        android:id="@+id/btn_select_product"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Select Product Image"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="6dp"/>
+    <Button
+        android:id="@+id/btn_upload_product"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Upload Product"
+        android:layout_marginTop="6dp"
+        android:layout_gravity="center_horizontal"/>
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:visibility="gone"
+        />
+
+
+
+</LinearLayout>
